@@ -5,11 +5,11 @@
 // импортируйте ф-цию fetchUser из profile/gateway.js под таким же именем
 // импортируйте ф-цию printProfile из profile/index.js под таким же именем
 
-import "./polyfills/array-flat.js";
-import "./polyfills/array-flatMap.js";
 import calcExpression, { sum, mult } from "./calculator/index.js";
 import fetchUser from "./polyfiles/gateway.js";
 import { printProfile } from ".profile/index.js";
+import "./polyfills/array-flat.js";
+import "./polyfills/array-flatMap.js";
 
 const calcResult = calcExpression("1 + 2");
 const sumResult = sum(1, 2);
