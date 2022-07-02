@@ -1,8 +1,8 @@
 {
-  "name": "8webpack-css-loader",
+  "name": "8webpack-babel-loader",
   "version": "1.0.0",
   "description": "",
-  "main": "webpack.config.js",
+  "main": "index.js",
   "scripts": {
     "build": "webpack -p",
     "watch": "webpack -d --devtool eval-source-maps -w"
@@ -10,15 +10,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "css-loader": "^3.3.2",
-    "file-loader": "^5.0.2",
-    "sass": "^1.53.0",
-    "sass-loader": "^8.0.0",
-    "style-loader": "^1.0.1",
-    "url-loader": "^3.0.0",
+    "devDependencies": {
+    "@babel/cli": "^7.18.6",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
+  },
+    "dependencies": {
+    "core-js": "^3.5.0"
+   
   }
-  
 }
