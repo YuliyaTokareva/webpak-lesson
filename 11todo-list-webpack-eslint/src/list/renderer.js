@@ -1,5 +1,4 @@
-//import { createCheckboxElem } from './checkbox.js';
-import { getItem } from './storage.js';
+import { getItem } from './storage';
 
 const listElem = document.querySelector('.list');
 export const renderTasks = () => {
